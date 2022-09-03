@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Name:Adarsha Pandey
+	London ID: 20048813
+	Date: 23 May 2022
+-->
+
+<?xml-stylesheet href="catalog_20048813.css" type="text/css"?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="catalog_20048813.xsd">
+    <store_Details>
+        <Name>Archies Gallery</Name>
+        <logo id="Image"/>
+        <Contact_No>9851071225</Contact_No>
+
+        <Address>
+            <State>Pokhara</State>
+            <City>Lakeside</City>
+            <Street>Liverpool Road</Street>
+        </Address>
+
+        <Website>https://www.archiesonline.com/</Website>
+
+
+    </store_Details>
+
+    <Gifts>
+
+        <Gifts_Details gift_id="gift_01">
+
+            <gift_Name>Netflix Gift Card</gift_Name>
+            <giftNumber id="gift_01">01</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>23/04/2026</expiry_Date>
+            <price currency="euro">100</price>
+            <discount_Vouchers>10% Off</discount_Vouchers>
+            <production_Company>Netflix</production_Company>
+            <users>3</users>
+            <code>1388</code>
+            <payment_Method>
+                <type>Esewa</type>
+            </payment_Method>
+            <rating>4.5</rating>
+            <Image id="img_01"/>
+
+        </Gifts_Details>
+
+
+        <Gifts_Details gift_id="gift_02">
+
+            <gift_Name>Netflix Gift Card</gift_Name>
+            <giftNumber id="gift_02">02</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>23/04/2026</expiry_Date>
+            <price currency="euro">100</price>
+            <discount_Vouchers>30% Off till 30th March</discount_Vouchers>
+            <production_Company>Netflix</production_Company>
+            <users>2</users>
+            <code>1424</code>
+            <payment_Method>
+                <type>Esewa,khaliti,ATM Card</type>
+            </payment_Method>
+            <rating>4.5</rating>
+            <Image id="img_02"/>
+
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_03">
+
+            <gift_Name>Starbucks Treat</gift_Name>
+            <giftNumber id="gift_03">03</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>12/01/2023</expiry_Date>
+            <price currency="euro">50</price>
+            <discount_Vouchers>20% Off</discount_Vouchers>
+            <production_Company>Starbucks</production_Company>
+            <users>1</users>
+            <code>1423</code>
+            <payment_Method>
+                <type>khalti,phonepay</type>
+            </payment_Method>
+            <Description> 
+                <des>Starbuck has made a announcement that those who buy this card will get free re-fill until 10 days.</des>
+            </Description>
+            <rating>5.0</rating>
+            <Image id="img_03"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_04">
+
+            <gift_Name>Teachers Day</gift_Name>
+            <giftNumber id="gift_04">04</giftNumber>
+            <Type>Physical Card</Type>
+            <expiry_Date>12/01/2023</expiry_Date>
+            <price currency="Rs.">200</price>
+            <discount_Vouchers>10% off from Nabil Bank Card</discount_Vouchers>
+            <production_Company>Gandaki School</production_Company>
+            <users>3</users>
+            <payment_Method>
+                <type>khalti,phonepay,Credit Card</type>
+            </payment_Method>
+            <shipping_Charge currency="Rs.">20</shipping_Charge>
+            <shipping_Location>Ilam</shipping_Location>
+            <Description>
+                <des>This card will help students to buy gifts for their teachers on the ocassion of Teacher's day.</des>
+            </Description>
+            <rating>3.0</rating>
+            <Image id="img_04"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_05">
+
+            <gift_Name>Mother's Day</gift_Name>
+            <giftNumber id="gift_05">05</giftNumber>
+            <Type>Physical Card</Type>
+            <expiry_Date>20/04/2022</expiry_Date>
+            <price currency="Rs.">50.08</price>
+            <discount_Vouchers>40% Off from Nic Asia</discount_Vouchers>
+            <production_Company>ING Group</production_Company>
+            <users>1</users>
+            <shipping_Charge currency="Rs.">20</shipping_Charge>
+            <shipping_Location>Lakeside</shipping_Location>
+            <Description>
+                <des>This card will help the kids to get beautiful present for their caring mom. </des>
+            </Description>
+            <rating>5.0</rating>
+            <Image id="img_05"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_06">
+
+            <gift_Name>Amazon Card</gift_Name>
+            <giftNumber id="gift_06">06</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>20/12/2025</expiry_Date>
+            <price currency="euro">140</price>
+            <discount_Vouchers>15% Off until 2024 </discount_Vouchers>
+            <production_Company>Amazon</production_Company>
+            <users>6</users>
+            <code>1490</code>
+            <payment_Method>
+                <type>Esewa,khaliti,ATM Card</type>
+            </payment_Method>
+            <rating>3.6</rating>
+            <Image id="img_06"/>
+            
+
+        </Gifts_Details>
+
+        
+        <Gifts_Details gift_id="gift_07">
+
+            <gift_Name>Google Gift Card</gift_Name>
+            <giftNumber id="gift_07">07</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>30/10/2030</expiry_Date>
+            <price currency="euro">170</price>
+            <discount_Vouchers>20% from HBL bank</discount_Vouchers>
+            <production_Company>Google</production_Company>
+            <users>8</users>
+            <code>1328</code>
+            <payment_Method>
+                <type>Esewa,phonepay,khalti,ATM Card</type>
+            </payment_Method>
+            <rating>3.1</rating>
+            <Image id="img_07"/>
+
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_08">
+
+            <gift_Name>Birthday Celebration</gift_Name>
+            <giftNumber id="gift_08">08</giftNumber>
+            <Type>Physical Card</Type>
+            <expiry_Date>03/09/2023</expiry_Date>
+            <price currency="Rs.">25.00</price> 
+            <production_Company>Hotel Barahi</production_Company>
+            <users>3</users>
+            <payment_Method>
+                <type>Esewa,phonepay,khalti,ATM Card</type>
+            </payment_Method>
+            <shipping_Charge currency="Rs.">20</shipping_Charge>
+            <shipping_Location>Thamel</shipping_Location>
+            <Description>
+                <des>This card will help everyone to stay one night stay with friends to celebrate birthday in hotel Barahi.  </des>
+            </Description>
+            <rating>5.0</rating>
+            <Image id="img_08"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_09">
+
+            <gift_Name>Fifa 14</gift_Name>
+            <giftNumber id="gift_09">09</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>01/01/2029</expiry_Date>
+            <price currency="euro">114</price>
+            <discount_Vouchers>5% discount from esewa</discount_Vouchers>
+            <production_Company>E-sports</production_Company>
+            <users>2</users>
+            <code>1562</code>
+            <payment_Method>
+                <type>Esewa,phonepay,khalti,ATM Card,connectIPS</type>
+            </payment_Method>
+            <rating>5.0</rating>
+            <Image id="img_09"/>
+
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_010">
+
+            <gift_Name>PUBG Mobile</gift_Name>
+            <giftNumber id="gift_010">10</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>02/05/2026</expiry_Date>
+            <price currency="euro">300</price>
+            <discount_Vouchers>20% from Phonepay</discount_Vouchers>
+            <production_Company>PUBG</production_Company>
+            <users>1</users>
+            <code>3904</code>
+            <payment_Method>
+                <type>phonepay</type>
+            </payment_Method>
+            <rating>4.2</rating>
+            <Image id="img_010"/>
+
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_011">
+
+            <gift_Name>Free Meal</gift_Name>
+            <giftNumber id="gift_011">11</giftNumber>
+            <Type>Physical Card</Type>
+            <expiry_Date>09/3/2023</expiry_Date>
+            <price currency="Rs.">50.00</price>
+            <production_Company>Trishara &amp; Mantra</production_Company>
+            <users>1</users>
+            <payment_Method>
+                <type>Cash</type>
+            </payment_Method>
+            <shipping_Charge currency="Rs.">20</shipping_Charge>
+            <shipping_Location>Banasthali</shipping_Location>
+            <rating>4.9</rating>
+            <Image id="img_011"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_012">
+
+            <gift_Name>X-Box</gift_Name>
+            <giftNumber id="gift_012">12</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>02/12/2029</expiry_Date>
+            <price currency="euro">30</price>
+            <discount_Vouchers>10% from Nabil</discount_Vouchers>
+            <production_Company>X-Box</production_Company>
+            <users>3</users>
+            <code>5000</code>
+            <payment_Method>
+                <type>ATM Card</type>
+            </payment_Method>
+            <rating>3.95</rating>
+            <Image id="img_012"/>
+
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_013">
+
+            <gift_Name>Free Uber Ride</gift_Name>
+            <giftNumber id="gift_013">13</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>01/12/2022</expiry_Date>
+            <price currency="euro">90</price>
+            <production_Company>Uber</production_Company>
+            <users>4</users>
+            <code>1820</code>
+            <payment_Method>
+                <type>khalti</type>
+            </payment_Method>
+            <Description>
+                <des>This card helps the user to get free ride around the city.  </des>
+            </Description>
+            <rating>5.0</rating>
+            <Image id="img_013"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_014">
+
+            <gift_Name>PES 2022</gift_Name>
+            <giftNumber id="gift_014">14</giftNumber>
+            <Type>Physical Card</Type>
+            <expiry_Date>09/04/2023</expiry_Date>
+            <price currency="Rs.">120.00</price>
+            <production_Company>Steam Games</production_Company>
+            <users>1</users>
+            <payment_Method>
+                <type>Cash</type>
+            </payment_Method>
+           <rating>5.0</rating>
+           <Image id="img_014"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_015">
+
+            <gift_Name>Freefire</gift_Name>
+            <giftNumber id="gift_015">15</giftNumber>
+            <Type>Digital Card</Type>
+            <expiry_Date>29/09/2025</expiry_Date>
+            <price currency="euro">130</price>
+            <discount_Vouchers>50% Off from NIBL</discount_Vouchers>
+            <production_Company>Freefire</production_Company>
+            <users>3</users>
+            <code>9023</code>
+            <payment_Method>
+                <type>khalti,phonepay,Paypal,ATM Card</type>
+            </payment_Method>
+            <rating>5.0</rating>
+            <Image id="img_015"/>
+        </Gifts_Details>
+
+        <Gifts_Details gift_id="gift_016">
+
+            <gift_Name>Mountain Flights</gift_Name>
+            <giftNumber id="gift_016">16</giftNumber>
+            <Type>Physical Card</Type>
+            <expiry_Date>30/08/2022</expiry_Date>
+            <price currency="Rs.">30000</price>
+            <production_Company>Neapl Tourism Industry</production_Company>
+            <users>2</users>
+            <payment_Method>
+                <type>ATM Card</type>
+            </payment_Method>
+            <shipping_Charge currency="Rs.">20</shipping_Charge>
+            <shipping_Location>Balaju</shipping_Location>
+            <Description>
+                <des> This card helps people to sight seeing mountains. </des>
+            </Description>
+            <rating>4.5</rating>
+            <Image id="img_016"/>
+        </Gifts_Details>
+
+    </Gifts>
+
+    <!-- Footer element stores information regrading Copyright-->
+    <footer>
+        2022 Copyright by Archies Gallery | Copyright  &#xA9; 2022
+    </footer>
+
+    
+</store>

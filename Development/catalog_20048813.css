@@ -1,0 +1,370 @@
+/*importing Font */
+
+@font-face{
+	src: url(Font/GoblinOne-Regular.ttf);
+	font-family: Goblin;
+}
+@font-face{
+
+	src: url(Font/OriginalSurfer-Regular.ttf);
+	font-family: Sufer;
+}
+
+
+@font-face{
+
+	src: url(Font/FjallaOne-Regular.ttf);
+	font-family: Incos;
+}
+
+store{
+    background-color: rgb(148, 198, 205); /*Inserting background color*/
+	width: 100%;
+	height: 11vh; 
+	background-size: cover;
+	position: absolute;	
+}
+
+Name{
+    display: block;
+	padding: 2px;
+	font-weight: bold;
+	background-color: rgb(191, 202, 197); 
+	border: solid 4px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	color: red;
+	font-size: 35px; 
+	border-bottom: none;
+	padding-top: 15px;
+}
+
+Website,Address,Contact_No{
+	display: block;
+	background-color:rgb(191, 202, 197 ); 
+	border-left: solid 4px;
+	border-right: solid 4px;
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: red;
+	padding: 5px;
+	border-bottom: none;
+}
+
+@keyframes css {
+    from {background-color:rgb(103, 211, 174);}
+    to {background-color: rgb(172, 153, 227);}
+}
+
+Gifts_Details{
+    display: block;
+	float: left; 
+	margin-right: 10px; 
+	font-family: Anton; 
+	margin-top: 70px; 
+	border-radius: 10px 10px 10px 10px;
+	border-color: rgb(92, 118, 225);
+	border-style: double;
+	border-width: 10px;
+	margin-left: 200px;
+	width: 400px;
+	height: 570px;
+	padding: 30px;
+	outline:rgb(135, 240, 239) dashed 7px;
+	background-color: rgb(103, 211, 174);
+	animation-name: css;
+  	animation-duration: 4s;
+  	animation-delay: -3s;
+  	animation-iteration-count: infinite;
+}
+
+gift_Name{
+    display: block;
+    font-size: 25px;
+    padding-left: 130px;
+    font-weight: bold;
+    color: rgb(100, 117, 191);
+}
+
+giftNumber,Type,expiry_Date,price,discount_Vouchers,production_Company,users,code,payment_Method,rating,Description,shipping_Charge,shipping_Location{
+    display: block;
+    font-family: Incos;
+    font-size: 20px;
+    padding: 2px;
+}
+
+giftNumber::before{
+    content: "Gift Number: ";
+    font-weight: bold;
+}
+
+Type::before{
+    content: "Type: ";
+    font-weight: bold;
+}
+
+expiry_Date::before{
+    content: "Expiry Date: ";
+    font-weight: bold;
+}
+
+price::before{
+    content: "Price: ";
+    font-weight: bold;
+}
+
+discount_Vouchers::before{
+    content: "Discount Vouchers: ";
+    font-weight: bold;
+}
+
+production_Company::before{
+    content: "Production Company: ";
+    font-weight: bold;
+}
+
+users::before{
+    content: "Users: ";
+    font-weight: bold;
+}
+
+code::before{
+    content: "Code: ";
+    font-weight: bold;
+}
+
+payment_Method::before{
+    content: "Payment Method: ";
+    font-weight: bold;
+}
+
+rating::before{
+    content: "Rating: ";
+    font-weight: bold;
+}
+
+des::before{
+    content: "Description: ";
+    font-weight: bold;
+}
+
+shipping_Charge::before{
+    content: "Shipping Charge: ";
+    font-weight: bold;
+}
+
+shipping_Location::before{
+    content: "Shipping Location: ";
+    font-weight: bold;
+}
+
+#Image {
+	background-image: url(./images/logo.jfif);
+	/*displaying logo image*/
+	width: 290px;
+	height: 130px;
+	background-size: 290px;
+	position: absolute;
+	top: 11px;
+	left: 2%;
+	margin-bottom: 300px;
+}
+
+#img_01 {
+	background-image: url(./images/netflix.jfif);
+	background-size: 350px;
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	margin-top: 15px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_02 {
+	background-image: url(./images/netflix\ card.jpg);
+	background-size: 350px;
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-top: 15px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_03 {
+	background-image: url(./images/latte\ starbucks.jpg);
+	background-size: 350px;
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-top: 15px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_04 {
+	background-image: url(./images/teachers\ day.jpg);
+	background-size: 350px;
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: -25px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+
+}
+
+#img_05 {
+	background-image: url(./images/mothers\ day.jpg);
+	background-size: 350px;
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-top: 15px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_06 {
+	background-image: url(./images/amazon.jpg);
+	background-size: 350px;
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-top: 15px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_07 {
+	background-image: url(./images/goggle\ gift.jpg);
+	background-size: 350px;
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-top: 15px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_08 {
+	background-image: url(./images/birthday.jpg);
+	background-size: 350px;
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-top: 5px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_09 {
+	background-image: url(./images/fifa\ 14.jfif);
+	background-size: 550px;
+	width: 400px;
+	height: 280px;
+	position: absolute;
+	margin-top: auto;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_010 {
+	background-image: url(./images/PUBG.png);
+	background-size: 350px;
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	margin-top: auto;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_011{
+	background-image: url(./images/thakali.jfif);
+	background-size: 400px;
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	margin-top: auto;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_012 {
+	background-image: url(./images/x-box.jfif);
+	background-size: 400px;
+	width: 380px;
+	height: 300px;
+	position: absolute;
+	margin-top: auto;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_013 {
+	background-image: url(./images/uber.jfif);
+	background-size: 450px;
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	margin-top: 5px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+
+#img_014 {
+	background-image: url(./images/pes\ 2022.png);
+	background-size: 350px;
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-top: 05px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 15px;
+}
+
+#img_015 {
+	background-image: url(./images/free\ fire.png);
+	background-size: 370px;
+	width: 360px;
+	height: 250px;
+	position: absolute;
+	margin-top: 05px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+#img_016 {
+	background-image: url(./images/flights.jfif);
+	background-size: 350px;
+	width: 360px;
+	height: 190px;
+	position: absolute;
+	margin-top: 05px;
+	box-shadow: 15px 8px 8px;
+	border-radius: 10px;
+}
+
+
+#img_01:hover, #img_02:hover, #img_03:hover, #img_04:hover, #img_05:hover, #img_06:hover, #img_07:hover, #img_08:hover, #img_09:hover, #img_010:hover, #img_011:hover,
+#img_012:hover, #img_013:hover, #img_014:hover, #img_015:hover, #img_016:hover, #Image:hover  {
+	transform: scale(1.1);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+footer{
+	padding: 20px 582px;
+	margin-top: 361rem;
+	background-color: black;
+	color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+}

@@ -1,0 +1,107 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="store_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="logo">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                      </xs:element> 
+              <xs:element name="Contact_No" type="xs:integer" />
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="State" type="xs:string" />
+                    <xs:element name="City" type="xs:string" />
+                    <xs:element name="Street" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Website" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Gifts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Gifts_Details" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="gift_Name" type="xs:string" />
+                    <xs:element name="giftNumber">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="id" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Type" type="xs:string" />
+                    <xs:element name="expiry_Date" type="xs:string" />
+                    <xs:element name="price">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:decimal">
+                            <xs:attribute name="currency" use="required">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:enumeration value="Rs." />
+                                  <xs:enumeration value="euro" />
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="discount_Vouchers" minOccurs="0" maxOccurs="1" type="xs:string" />
+                    <xs:element name="production_Company" type="xs:string" />
+                    <xs:element name="users" type="xs:string" />
+                    <xs:element name="code" minOccurs="0" maxOccurs="1" type="xs:string" />
+                    <xs:element name="payment_Method" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="type" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="shipping_Charge" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="currency" use="required" fixed="Rs." />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="shipping_Location" minOccurs="0" maxOccurs="1" type="xs:string" />
+                    <xs:element name="Description" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="des" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="rating" type="xs:string" />
+                    <xs:element name="Image">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:ID" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="gift_id" type="xs:ID" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="footer" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
